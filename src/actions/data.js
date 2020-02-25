@@ -25,3 +25,16 @@ export function getAlbum(id) {
       })
   })
 }
+
+export function getPhoto(id) {
+  return new Promise((resolve, reject) => {
+    axios
+      .get(`/photos/${id}?_expand=album`)
+      .then(resp => {
+        resolve(resp.data)
+      })
+      .catch(e => {
+        reject(e)
+      })
+  })
+}

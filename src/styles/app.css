@@ -18,3 +18,7 @@
 .grid a img {
   max-width: 100%;
 }
+
+.photo img {
+  max-width: 700px;
+}
