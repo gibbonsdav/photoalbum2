@@ -2,3 +2,19 @@
   width: 1000px;
   margin: auto;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.grid a {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 20px;
+}
+
+.grid a img {
+  max-width: 100%;
+}

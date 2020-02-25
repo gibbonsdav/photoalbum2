@@ -1,10 +1,10 @@
 import React from "react"
 import { BrowserRouter as Router, Route } from "react-router-dom"
-import "../styles.app.css"
+import "../styles/app.css"
 
 import Home from "./Home"
 import Album from "./Album"
-import Picture from "./Picture"
+import Photo from "./Photo"
 
 export default props => {
   return (
@@ -12,7 +12,7 @@ export default props => {
       <div className="wrapper">
         <Route exact path="/" component={Home} />
         <Route path="/album/:id" component={Album} />
-        <Route path="/picture/:id" component={Picture} />
+        <Route path="/photo/:id" component={Photo} />
       </div>
     </Router>
   )

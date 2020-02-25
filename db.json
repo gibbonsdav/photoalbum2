@@ -74,30 +74,14 @@
       "title": "Climbing at Ton Sai",
       "url": "https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=693&q=80"
     },
-    {
-      "id": 8,
-      "albumId": 2,
-      "title": "Sandstone Bouldering",
-      "url": "https://images.unsplash.com/photo-1507034589631-9433cc6bc453?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=331&q=80"
-    },
-    {
-      "id": 9,
-      "albumId": 2,
-      "title": "Climbing in Greece",
-      "url": "https://images.unsplash.com/photo-1578590149453-5f655ad52f25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1381&q=80"
-    },
+
     {
       "id": 10,
       "albumId": 2,
       "title": "Arete Climbing",
       "url": "https://images.unsplash.com/photo-1578763397601-ad069af37f14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=756&q=80"
     },
-    {
-      "id": 11,
-      "albumId": 2,
-      "title": "Kraft Mountain",
-      "url": "https://images.unsplash.com/photo-1569783237906-4b751476fc3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
-    },
+
     {
       "id": 12,
       "albumId": 2,
@@ -160,19 +144,19 @@
     },
     {
       "id": 22,
-      "albumId": 5,
+      "albumId": 6,
       "title": "Mama and Cub",
       "url": "https://images.unsplash.com/photo-1504439471380-f2deda686566?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
     },
     {
       "id": 23,
-      "albumId": 5,
+      "albumId": 6,
       "title": "Polar Bears",
       "url": "https://images.unsplash.com/photo-1522725889967-474fd85fd87f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=806&q=80"
     },
     {
       "id": 24,
-      "albumId": 5,
+      "albumId": 6,
       "title": "Panda",
       "url": "https://images.unsplash.com/photo-1566487097168-e91a4f38bee2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
     }
