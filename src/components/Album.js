@@ -17,10 +17,12 @@ export default props => {
 
   return (
     <div>
-      <h1>{album.name}</h1>
+      <div className="aname">
+        <h1>{album.name}</h1>
+      </div>
       <div className="albums">
         {albums.map(album => (
-          <p>
+          <p className="sidebar">
             {" "}
             <Link to={`/album/${album.id}`}>{album.name}</Link>
           </p>

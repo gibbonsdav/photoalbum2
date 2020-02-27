@@ -9,7 +9,9 @@ export default props => {
   }, [])
   return (
     <div>
-      <h1>My Albums</h1>
+      <div className="aname">
+        <h1>My Albums</h1>
+      </div>
       <div className="grid">
         {albums.map(album => (
           <Link to={`/album/${album.id}`}>

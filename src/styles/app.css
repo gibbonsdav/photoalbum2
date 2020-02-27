@@ -22,3 +22,16 @@
 .photo img {
   max-width: 700px;
 }
+
+.aname {
+  font-size: x-large;
+  padding: 30px;
+  background: grey;
+  width: 1000px;
+  text-justify: center;
+  text-align: center;
+  /* margin: 500px; */
+}
+
+.sidebar {
+}
