@@ -1,3 +1,7 @@
+body {
+  background-color: #f1f3f4;
+}
+
 .wrapper {
   width: 1000px;
   margin: auto;
@@ -34,4 +38,37 @@
 }
 
 .sidebar {
+  padding: 10px;
+  margin: auto;
+}
+
+.grid {
+}
+
+.albums {
+  display: grid;
+  text-align: center;
+  text-justify: center;
+}
+
+.albums a {
+  text-decoration: none;
+  color: #512b58;
+}
+
+.extracontain {
+  display: flex;
+}
+
+.photo {
+  justify-items: center;
+  align-items: center;
+}
+
+.lastpic {
+  display: flex;
+}
+
+.photo h1 {
+  text-align: center;
 }

@@ -11,9 +11,11 @@ export default props => {
   }, [props.match.params])
 
   return (
-    <div className="photo">
-      <h1>{photo.name}</h1>
-      <img src={photo.url} />
+    <div className="lastpic">
+      <div className="photo">
+        <h1>{photo.title}</h1>
+        <img src={photo.url} />
+      </div>
     </div>
   )
 }

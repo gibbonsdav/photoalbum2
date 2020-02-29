@@ -20,21 +20,23 @@ export default props => {
       <div className="aname">
         <h1>{album.name}</h1>
       </div>
-      <div className="albums">
-        {albums.map(album => (
-          <p className="sidebar">
-            {" "}
-            <Link to={`/album/${album.id}`}>{album.name}</Link>
-          </p>
-        ))}
-      </div>
-      <div className="grid">
-        {photos.map(photo => (
-          <Link to={`/photo/${photo.id}`}>
-            <img src={photo.url} />
-            <p className="title">{photo.name}</p>
-          </Link>
-        ))}
+      <div className="extracontain">
+        <div className="albums">
+          {albums.map(album => (
+            <p className="sidebar">
+              {" "}
+              <Link to={`/album/${album.id}`}>{album.name}</Link>
+            </p>
+          ))}
+        </div>
+        <div className="grid">
+          {photos.map(photo => (
+            <Link to={`/photo/${photo.id}`}>
+              <img src={photo.url} />
+              <p className="title">{photo.name}</p>
+            </Link>
+          ))}
+        </div>
       </div>
     </div>
   )
